@@ -1,0 +1,419 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+body {
+  height: 750px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+/* Vertical Navbar */
+.navbar {
+  background-image: linear-gradient(steelblue, pink);
+
+  width: 240px;
+  height: 100%;
+
+  justify-content: center;
+
+  border: 3px solid black;
+}
+
+.tampilanAtas {
+  text-align: center;
+}
+
+.tampilanAtas img {
+  width: 130px;
+  height: 130px;
+
+  border-radius: 100%;
+
+  margin-top: 40px;
+}
+
+.tampilanAtas h2 {
+  font-size: 21px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram,
+.tiktok,
+.whatsapp {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navigation li a {
+  list-style-type: none;
+  text-decoration: none;
+
+  font-size: 18px;
+  transition: 1s;
+}
+
+.navigation a:hover {
+  font-size: 25px;
+}
+
+li {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.icons i {
+  margin-bottom: 18px;
+  font-size: 25px;
+}
+
+.pembuat {
+  margin-top: 200px;
+
+  color: black;
+}
+.pembuat a {
+  color: black;
+}
+/* Vertical Navbar */
+
+/* BERANDA */
+.beranda {
+  background-color: steelblue;
+
+  width: 100%;
+  height: 100%;
+
+  font-family: "Cinzel Decorative", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  margin-bottom: 30px;
+}
+
+.beranda h2,
+.beranda h4 {
+  color: black;
+}
+
+.ket h4 {
+  text-decoration: line-through;
+}
+/* BERANDA */
+
+/* TENTANG */
+.tentang {
+  background-color: steelblue;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  display: none;
+}
+
+.wrapper_tentang {
+  width: 100%;
+}
+
+.bagian_atas {
+  display: flex;
+
+  justify-content: center;
+
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.petunjuk_kiri,
+.petunjuk_kanan {
+  margin-top: 130px;
+}
+
+.petunjuk_kiri {
+  margin-right: 50px;
+}
+
+.petunjuk_kanan {
+  margin-left: 50px;
+}
+
+.petunjuk_kanan button,
+.petunjuk_kiri button {
+  font-size: 30px;
+
+  background: none;
+
+  border: none;
+  transition: 0.5s;
+}
+
+.petunjuk_kanan button:hover,
+.petunjuk_kiri button:hover {
+  font-size: 35px;
+}
+
+.foto img {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.konteks {
+  height: 250px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraf {
+  width: 500px;
+  height: auto;
+
+  margin-bottom: 150px;
+
+  background-color: purple;
+  border: 3px solid pink;
+  border-radius: 2px 15px 15px 15px;
+  font-family: "Cherry Bomb One", cursive;
+}
+
+.paragraf p {
+  padding: 10px;
+}
+/* TENTANG */
+
+/* PENGHARGAAN */
+.penghargaan {
+  background-color: steelblue;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  display: none;
+}
+
+.wrapper_penghargaan {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.tampilan1,
+.tampilan2 {
+  border: 2px solid black;
+
+  width: 250px;
+  height: 300px;
+
+  background-color: purple;
+
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.tampilan2 {
+  background-color: tomato !important;
+}
+
+.layar img {
+  width: 100%;
+  height: 200px;
+
+  border: 2px solid black;
+
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tampilan1 p,
+.tampilan2 p {
+  color: black;
+
+  text-align: justify;
+  font-family: "Cherry Bomb One", cursive;
+  font-size: 15px;
+
+  padding: 5px;
+}
+
+.tampilan1 p {
+  color: white !important;
+}
+
+/* PENGHARGAAN */
+
+/* PORTFOLIO */
+.portfolio {
+  width: 100%;
+  height: 100%;
+
+  background-color: steelblue;
+
+  display: block;
+
+  display: none;
+}
+
+.wrapper_portfolio {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.bagian_up,
+.bagian_down {
+  color: black;
+
+  width: 100%;
+  height: 50%;
+}
+
+.bagian_up {
+  display: flex;
+}
+
+.kiri,
+.kanan {
+  height: 100%;
+  width: 50%;
+}
+
+.kiri {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: steelblue;
+
+  height: 100%;
+  width: 100%;
+}
+
+.satu,
+.dua,
+.tiga {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: tomato;
+  border-radius: 11px;
+  box-shadow: 2px 2px 2px 2px black;
+
+  padding: 15px;
+  height: 140px;
+  width: 130px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 10px;
+
+  font-family: "Cherry Bomb One", cursive;
+}
+
+.dua {
+  background-color: purple !important;
+}
+
+.satu h1,
+.tiga h1 {
+  color: black;
+}
+
+.kanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poto img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 100%;
+}
+
+.bagian_down {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bawah1,
+.bawah2,
+.bawah3,
+.bawah4 {
+  height: 265px;
+  width: 225px;
+
+  box-shadow: 2px 2px 2px 2px black;
+
+  border-radius: 10px;
+}
+
+.bawah1,
+.bawah3 {
+  background-color: tomato;
+}
+.bawah2,
+.bawah4 {
+  background-color: purple;
+}
+
+.bawah1 img,
+.bawah2 img,
+.bawah3 img,
+.bawah4 img {
+  width: 100%;
+  height: 150px;
+
+  border: 2px solid rgb(0, 0, 0);
+
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bawah1 p,
+.bawah3 p {
+  color: black;
+}
+
+.bawah1 p,
+.bawah2 p,
+.bawah3 p,
+.bawah4 p {
+  font-family: "Cherry Bomb One", cursive;
+
+  padding: 1px 5px 5px 5px;
+}
+
+/* PORTFOLIO */
